@@ -20,21 +20,6 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Print npm version
-        run: npm --version
-     
-      - name: Clear npm cache
-        run: npm cache clean -f
-     
-      - name: Install dependencies
-        run: npm install --verbose
-
-      - name: Delete node_modules
-        run: rm -rf node_modules
-        
-      - name: Run npm audit
-        run: npm audit
-
       - name: Build project
         run: npm run build
 
