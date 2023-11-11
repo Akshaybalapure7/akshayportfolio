@@ -40,11 +40,9 @@ const About = () => {
       <motion.p variants={fadeIn('','',0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
          >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type 
-              specimen book. It has survived not only five centuries, but also the leap into 
-              electronic typesetting
+              Tech professional with over two years of hands-on experience in React, Laravel, and Node.js. 
+              Proficient in creating dynamic user interfaces using React, developing robust and secure applications with Laravel, and leveraging Node.js for scalable, real-time solutions. 
+              Demonstrated success in contributing to diverse projects and adept at harmonizing these technologies to create holistic, high-performance applications
       </motion.p>
        <div className="mt-20 flex flex-wrap gap-10">
          {services.map((service,index)=>{
