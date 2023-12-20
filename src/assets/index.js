@@ -29,8 +29,24 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import collage from "./collage.png";
+import designtool from "./designtool.png";
+import tuliprint from "./tuliprint.png";
+import luhvee from "./luhvee.png";
+import graphite from "./graphite.jpeg";
+import graphite2 from "./graphite2.jpeg";
+import arihant from './arihant.png';
+import sterling from './sterling.png';
 
 export {
+  arihant,
+  sterling,
+  designtool,
+  tuliprint,
+  luhvee,
+  collage,
+  graphite,
+  graphite2,
   logo,
   backend,
   creator,

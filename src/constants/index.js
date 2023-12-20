@@ -23,6 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    designtool,
+    luhvee,
+    tuliprint,
+    collage,
+    graphite,
+    graphite2,
+    arihant,
+    sterling,
   } from "../assets";
   
   export const navLinks = [
@@ -53,10 +61,10 @@ import {
       title: "Node Js Developer",
       icon: backend,
     },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
+    {
+      title: "HTML/CSS/JavaScript Developer",
+      icon: creator,
+    },
   ];
   
  export const technologies = [
@@ -117,10 +125,10 @@ import {
  export const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Sterling Technolabs",
+      icon:sterling,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +137,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Laravel Developer",
+      company_name: "Arihant Web Consultancy",
+      icon:arihant,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2021 - Jan 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,10 +151,10 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "Helix Solution",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2019 - June 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,19 +162,19 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
 export const testimonials = [
@@ -198,58 +206,58 @@ export const testimonials = [
   
 export const projects = [
     {
-      name: "Car Rent",
+      name: "Designtool",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to design their own card , posters, books , giftcards , letterpad, tshirts,cusions or any other product ,logo,Outlet for product using this tool ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "fabric",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: designtool,
+      //source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Tuliprint",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to design different fabric as per requirment using different image and different overlay",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "fabric js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: tuliprint,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Collage",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Create web base apllication for designing photo tiles , collage image and frame and wall sign to allow user to check preview and generate output ",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Html",
           color: "green-text-gradient",
         },
         {
@@ -257,7 +265,70 @@ export const projects = [
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: collage,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Luhvee",
+      description:
+        "Create dashboard and integrate order section to place order from admin side and integrate third party designtool with 3rd party api",
+      tags: [
+        {
+          name: "Larvel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css/Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:luhvee,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Graphite",
+      description:
+        "Created project from where user can purchase different policies and can claim for policy. ",
+      tags: [
+        {
+          name: "Larvel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css/Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:graphite,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Graphite",
+      description:
+        "Created project from where user can purchase different policies and can claim for policy this one for different country. ",
+      tags: [
+        {
+          name: "Larvel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css/Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:graphite2,
       source_code_link: "https://github.com/",
     },
   ];

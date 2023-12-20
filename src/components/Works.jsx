@@ -65,9 +65,9 @@ const Works = () => {
               variants={fadeIn("","",0.1,1)}
               clasName="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
            >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus vel dolor earum! Soluta, magni ut corporis dolore sit dolor reprehenderit. Minus iure nulla, 
-                earum ut hic cumque reiciendis sapiente.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus vel dolor earum! Soluta, magni ut corporis dolore sit dolor reprehenderit. Minus iure nulla, 
-                earum ut hic cumque reiciendis sapiente          
+                Create diffrernt projects using React js,Laravel,Node js ,HTML,CSS,Node js,Bottstrap and tailwind also use fanbic and three.js,
+                Using react js fabric and three.js I mostly work on designtools and created some modules in E-commerse site. Using Laravel created Dashboard
+                and work on some E-commesrce site also. Created project where user can purchase policy and cliam for this policies also.
            </motion.p>
            
        </div>
