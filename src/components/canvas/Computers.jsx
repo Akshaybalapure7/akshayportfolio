@@ -2,6 +2,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
+import main from  '../../assets/main.png';
 
 const Computers = ({isMobile}) => {
    const computer =useGLTF('./desktop_pc/scene.gltf')
@@ -47,23 +48,28 @@ const ComputersCanvas=()=>{
   },[])
 
   return (
-         <Canvas
-             frameloop="demand"
-             shadows
-             dpr={[1,2]}
-             camera={{position:[20,3,5],fov:25}}
-             gl={{preserveDrawingBuffer:true}}
-         >
-            <Suspense fallback={<CanvasLoader/>}>
-              <OrbitControls 
-                   enableZoom={false} 
-                   maxPolarAngle={Math.PI/2}
-                   minPolarAngle={Math.PI/2}
-              />
-              <Computers isMobile={mobile}/>
-            </Suspense> 
-            <Preload all/>
-        </Canvas>
+        //  <Canvas
+        //      frameloop="demand"
+        //      shadows
+        //      dpr={[1,2]}
+        //      camera={{position:[20,3,5],fov:25}}
+        //      gl={{preserveDrawingBuffer:true}}
+        //  >
+        //     <Suspense fallback={<CanvasLoader/>}>
+        //       <OrbitControls 
+        //            enableZoom={false} 
+        //            maxPolarAngle={Math.PI/2}
+        //            minPolarAngle={Math.PI/2}
+        //       />
+        //       <Computers isMobile={mobile}/>
+        //     </Suspense> 
+        //     <Preload all/>
+        // </Canvas>
+
+        <div className="mt-10 w-52"  >
+        
+         <img src={main} style={{clipPath:`circle(50% at 50% 50%)`}} className="opacity-100"/>
+        </div>
         
         )
 }

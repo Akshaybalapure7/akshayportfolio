@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas/'
-
+import main from  '../assets/main.png';
 const Hero = () => {
   return (
      <section className="relative w-full h-screen mx-auto">
@@ -21,11 +21,16 @@ const Hero = () => {
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                           I developed designtools , user <br className="sm:block hidden"/> interfaces and web applications
                     </p>
+                    
 
               </div>
+              <div className="flex place-content-center w-[24rem] float-right mt-5" style={{clipPath:`polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%)`}}>
+                            <img src={main} className="grayscale"/>
+                    </div>
           </div>
-          <ComputersCanvas/>
-
+          {/* <div className="flex place-content-center" style={{height:"100vh"}}>
+              <ComputersCanvas/>
+          </div> */}
           <div className="absolute xs:bottom-10 bottom-32 
                           w-full flex justify-center items-center">
                     <a href="#about">

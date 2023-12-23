@@ -8,14 +8,14 @@ import {projects} from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
 
 const ProjectCard=({index,name,description,tags,image})=>{
-  return( <motion.div variants={fadeIn("up","spring",index*0.5,0.75)}>
+  return( <motion.div>
         <Tilt
            options={{
             max:45,
             scale:1,
             speed:450
            }}
-           className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+           className="bg-tertiary p-5 rounded-2xl xs:w-[250px] sm:w-[360px] w-full"
         >
             <div className="relative w-full h-[230px]">
                   <img src={image} alt={name}
@@ -55,23 +55,23 @@ const ProjectCard=({index,name,description,tags,image})=>{
 const Works = () => {
   return (
     <>
-       <motion.div variants={textVariant()}>
+       <motion.div >
             <p className={`${styles.sectionSubText}`}>My work</p>
             <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
        </motion.div>
        
        <div className="w-full flex">
            <motion.p
-              variants={fadeIn("","",0.1,1)}
+              //variants={fadeIn("","",0.1,1)}
               clasName="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
            >
-                Create diffrernt projects using React js,Laravel,Node js ,HTML,CSS,Node js,Bottstrap and tailwind also use fanbic and three.js,
+                Create diffrernt projects using React js,Laravel,Node js ,HTML,CSS,Node js,Bottstrap and tailwind also use fabric js and three.js,
                 Using react js fabric and three.js I mostly work on designtools and created some modules in E-commerse site. Using Laravel created Dashboard
                 and work on some E-commesrce site also. Created project where user can purchase policy and cliam for this policies also.
            </motion.p>
            
        </div>
-       <div className="mt-20 flex flex-wrap gap-7">
+       <div className="mt-20 flex flex-wrap gap-10">
             {projects.map((project,index)=>{
                 return <ProjectCard key={`project${index}`}
                            index={index}
