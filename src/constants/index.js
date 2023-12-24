@@ -141,7 +141,7 @@ import {
       company_name: "Arihant Web Consultancy",
       icon:arihant,
       iconBg: "#E6DEDD",
-      date: "Dec 2021 - Jan 2022",
+      date: "Aug 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,7 +154,7 @@ import {
       company_name: "Helix Solution",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2019 - June 2021",
+      date: "Oct 2019 - Jan 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

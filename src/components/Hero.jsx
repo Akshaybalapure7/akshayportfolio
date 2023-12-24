@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas/'
-import main from  '../assets/main.png';
+import main from  '../assets/main.jpg';
 const Hero = () => {
   return (
      <section className="relative w-full h-screen mx-auto">
@@ -24,8 +24,8 @@ const Hero = () => {
                     
 
               </div>
-              <div className="flex place-content-center w-[24rem] float-right mt-5" style={{clipPath:`polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%)`}}>
-                            <img src={main} className="grayscale"/>
+              <div className="flex place-content-center w-[24rem] float-right mt-5" style={{clipPath:`polygon(100% 0, 85% 49%, 100% 100%, 24% 100%, 0% 50%, 23% 0)`}}>
+                            <img src={main} className=""/>
                     </div>
           </div>
           {/* <div className="flex place-content-center" style={{height:"100vh"}}>
