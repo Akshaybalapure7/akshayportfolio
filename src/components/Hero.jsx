@@ -24,7 +24,7 @@ const Hero = () => {
                     
 
               </div>
-              <div className="flex place-content-center w-[24rem] float-right mt-5" style={{clipPath:`polygon(100% 0, 85% 49%, 100% 100%, 24% 100%, 0% 50%, 23% 0)`}}>
+              <div className="flex place-content-center  xs:w-[320px] w-[24rem] float-right mt-5" style={{clipPath:`polygon(100% 0, 85% 49%, 100% 100%, 24% 100%, 0% 50%, 23% 0)`}}>
                             <img src={main} className=""/>
                     </div>
           </div>
